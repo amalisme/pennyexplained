@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn personal finance basics made simple. Budgeting, saving, credit, and free calculators for beginners.">
+    <meta name="keywords" content="personal finance, budgeting, saving money, credit score, financial literacy">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="PennyExplained - Personal Finance Made Simple">
+    <meta property="og:description" content="Learn personal finance basics made simple. Budgeting, saving, credit, and free calculators for beginners.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pennyexplained.com/">
+    
+    <title>PennyExplained - Personal Finance Made Simple</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Google Analytics - Replace with your Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGPBKNF3TP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QGPBKNF3TP');
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="PennyExplained Logo">
+            </a>
+            
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#learn">Learn</a></li>
+                    <li><a href="#calculators">Calculators</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Personal Finance Made Simple</h1>
+            <p>Learn the basics of budgeting, saving, and managing your money with clear explanations and helpful tools.</p>
+            <a href="#calculators" class="cta-button">Try Free Calculators</a>
+        </div>
+    </section>
+
+    <!-- Ad Placement: Leaderboard -->
+    <div class="ad-container">
+        <div class="ad-placeholder ad-leaderboard">
+            Advertisement - Leaderboard (728x90)
+        </div>
+    </div>
+
+    <!-- Featured Calculator -->
+    <section id="calculators" class="section-spacing">
+        <div class="container">
+            <h2 class="text-center">Featured Calculator</h2>
+            <p class="text-center" style="color: #64748b; max-width: 600px; margin: 0 auto 2rem;">See how different budget methods work with your income</p>
+            
+            <div class="featured-calculator">
+                <h2>Budget Calculator</h2>
+                
+                <div class="form-group">
+                    <label for="monthly-income">Monthly Income (After Tax)</label>
+                    <input type="number" id="monthly-income" placeholder="e.g., 3500" min="0" step="0.01">
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget-method">Budget Method</label>
+                    <select id="budget-method">
+                        <option value="50-30-20">50/30/20 Rule (Needs/Wants/Savings)</option>
+                        <option value="60-20-20">60/20/20 Rule</option>
+                        <option value="70-20-10">70/20/10 Rule</option>
+                    </select>
+                </div>
+                
+                <button class="btn-calculate" onclick="calculateBudget()">Calculate Budget</button>
+                
+                <div id="budget-result" class="result-box hidden">
+                    <p class="result-label">Your Monthly Budget Breakdown</p>
+                    
+                    <div class="result-breakdown">
+                        <div class="breakdown-item">
+                            <span>Needs (Housing, Food, Transport)</span>
+                            <span id="result-needs">$0.00</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Wants (Entertainment, Dining Out)</span>
+                            <span id="result-wants">$0.00</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Savings (Emergency Fund, Goals)</span>
+                            <span id="result-savings">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center mt-4">
+                <a href="calculators/budget.html">View Full Budget Calculator →</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Browse by Category -->
+    <section id="learn" class="section-spacing" style="background: #f8fafc;">
+        <div class="container">
+            <h2 class="text-center">Browse by Topic</h2>
+            <p class="text-center" style="color: #64748b; margin-bottom: 3rem;">Choose what you want to learn about</p>
+            
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <div class="category-icon">💰</div>
+                    <h3>Finance Basics</h3>
+                    <p>What is personal finance? Learn the fundamentals of managing money.</p>
+                </a>
+                
+                <a href="#" class="category-card">
+                    <div class="category-icon">📊</div>
+                    <h3>Budgeting</h3>
+                    <p>How to create and stick to a budget that works for you.</p>
+                </a>
+                
+                <a href="#" class="category-card">
+                    <div class="category-icon">🏦</div>
+                    <h3>Saving Money</h3>
+                    <p>Emergency funds, savings goals, and building your safety net.</p>
+                </a>
+                
+                <a href="#" class="category-card">
+                    <div class="category-icon">🏛️</div>
+                    <h3>Banking</h3>
+                    <p>Understanding checking accounts, savings accounts, and fees.</p>
+                </a>
+                
+                <a href="#" class="category-card">
+                    <div class="category-icon">📈</div>
+                    <h3>Credit & Debt</h3>
+                    <p>What credit scores are and how they work in plain language.</p>
+                </a>
+                
+                <a href="#" class="category-card">
+                    <div class="category-icon">📚</div>
+                    <h3>Money Terms</h3>
+                    <p>Simple definitions of financial terms you'll encounter.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ad Placement: Mid-page -->
+    <div class="ad-container">
+        <div class="ad-placeholder ad-rectangle">
+            Advertisement - Rectangle (300x250)
+        </div>
+    </div>
+
+    <!-- Latest Articles -->
+    <section id="articles" class="section-spacing">
+        <div class="container">
+            <h2 class="text-center">Latest Articles</h2>
+            <p class="text-center" style="color: #64748b; margin-bottom: 2rem;">Clear explanations of personal finance concepts</p>
+            
+            <div class="article-grid">
+                <a href="#" class="article-card">
+                    <h3>What is Personal Finance?</h3>
+                    <p>A beginner-friendly introduction to managing your money, from budgeting to saving.</p>
+                    <div class="article-meta">5 min read</div>
+                </a>
+                
+                <a href="#" class="article-card">
+                    <h3>How to Make a Basic Budget</h3>
+                    <p>Step-by-step guide to creating your first budget with simple examples.</p>
+                    <div class="article-meta">7 min read</div>
+                </a>
+                
+                <a href="#" class="article-card">
+                    <h3>What is an Emergency Fund?</h3>
+                    <p>Learn why emergency funds matter and how they work as your financial safety net.</p>
+                    <div class="article-meta">6 min read</div>
+                </a>
+                
+                <a href="#" class="article-card">
+                    <h3>What is a Credit Score?</h3>
+                    <p>Understanding credit scores: what they are, how they're calculated, and why they matter.</p>
+                    <div class="article-meta">8 min read</div>
+                </a>
+                
+                <a href="#" class="article-card">
+                    <h3>Fixed vs Variable Expenses</h3>
+                    <p>Learn the difference between fixed and variable expenses with real examples.</p>
+                    <div class="article-meta">4 min read</div>
+                </a>
+                
+                <a href="#" class="article-card">
+                    <h3>What Does APR Mean?</h3>
+                    <p>Simple explanation of APR (Annual Percentage Rate) and how it affects your money.</p>
+                    <div class="article-meta">5 min read</div>
+                </a>
+            </div>
+            
+            <p class="text-center mt-4">
+                <a href="#" class="cta-button-secondary cta-button">View All Articles →</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- All Calculators -->
+    <section class="section-spacing" style="background: #f8fafc;">
+        <div class="container">
+            <h2 class="text-center">Free Financial Calculators</h2>
+            <p class="text-center" style="color: #64748b; margin-bottom: 2rem;">Tools to help you plan your finances</p>
+            
+            <div class="category-grid">
+                <a href="calculators/budget.html" class="category-card">
+                    <div class="category-icon">💵</div>
+                    <h3>Budget Calculator</h3>
+                    <p>Calculate your ideal budget based on popular budgeting methods.</p>
+                </a>
+                
+                <a href="calculators/emergency-fund.html" class="category-card">
+                    <div class="category-icon">🚨</div>
+                    <h3>Emergency Fund Calculator</h3>
+                    <p>Figure out how much you need in your emergency fund and when you'll reach it.</p>
+                </a>
+                
+                <a href="calculators/savings-goal.html" class="category-card">
+                    <div class="category-icon">🎯</div>
+                    <h3>Savings Goal Calculator</h3>
+                    <p>Plan how to reach your savings goals with timeline and monthly amounts.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="#">Finance Basics</a></li>
+                        <li><a href="#">Budgeting</a></li>
+                        <li><a href="#">Saving Money</a></li>
+                        <li><a href="#">Banking</a></li>
+                        <li><a href="#">Credit & Debt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Calculators</h4>
+                    <ul>
+                        <li><a href="calculators/budget.html">Budget Calculator</a></li>
+                        <li><a href="calculators/emergency-fund.html">Emergency Fund</a></li>
+                        <li><a href="calculators/savings-goal.html">Savings Goal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 PennyExplained.com. All rights reserved.</p>
+                <p style="margin-top: 0.5rem;">Personal finance education for beginners. Not financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

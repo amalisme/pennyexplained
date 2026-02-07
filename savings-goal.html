@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free savings goal calculator. Plan how to reach any savings goal with timeline and monthly contribution calculations.">
+    <meta name="keywords" content="savings goal calculator, savings planner, financial goals, money saving calculator">
+    
+    <title>Savings Goal Calculator - PennyExplained</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGPBKNF3TP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QGPBKNF3TP');
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo.svg" alt="PennyExplained Logo">
+            </a>
+            
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#learn">Learn</a></li>
+                    <li><a href="../index.html#calculators">Calculators</a></li>
+                    <li><a href="../index.html#articles">Articles</a></li>
+                    <li><a href="../about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Calculator -->
+    <div class="container">
+        <div class="calculator-container">
+            <h1>Savings Goal Calculator</h1>
+            <p class="calculator-intro">Calculate how long it will take to reach your savings goal or how much you need to save each month.</p>
+            
+            <div class="form-group">
+                <label for="savings-goal">Savings Goal Amount</label>
+                <input type="number" id="savings-goal" placeholder="e.g., 5000" min="0" step="0.01">
+                <small style="color: #64748b; display: block; margin-top: 0.5rem;">
+                    How much total do you want to save? (vacation, down payment, car, etc.)
+                </small>
+            </div>
+            
+            <div class="form-group">
+                <label for="current-amount">Current Savings Toward This Goal</label>
+                <input type="number" id="current-amount" placeholder="e.g., 500" min="0" step="0.01" value="0">
+            </div>
+            
+            <div class="form-group">
+                <label for="monthly-contribution">Monthly Contribution</label>
+                <input type="number" id="monthly-contribution" placeholder="e.g., 200" min="0" step="0.01">
+                <small style="color: #64748b; display: block; margin-top: 0.5rem;">
+                    How much can you save each month toward this goal?
+                </small>
+            </div>
+            
+            <div class="form-group">
+                <label for="target-date">Target Date (Optional)</label>
+                <input type="date" id="target-date">
+                <small style="color: #64748b; display: block; margin-top: 0.5rem;">
+                    If you have a deadline, we'll calculate the required monthly savings
+                </small>
+            </div>
+            
+            <button class="btn-calculate" onclick="calculateSavingsGoal()">Calculate Savings Plan</button>
+            
+            <div id="savings-result" class="result-box hidden">
+                <p class="result-label">Your Savings Plan</p>
+                
+                <div class="result-breakdown">
+                    <div class="breakdown-item">
+                        <span>💰 Total Amount Needed</span>
+                        <span id="total-needed" style="color: #10b981; font-size: 1.5rem;">$0.00</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>📅 Time to Reach Goal</span>
+                        <span id="savings-months" style="color: #3b82f6; font-size: 1.25rem;">0 months</span>
+                    </div>
+                    <div class="breakdown-item" id="required-monthly" style="display: none;">
+                        <span>📊 Required Monthly Savings (for target date)</span>
+                        <span id="required-monthly" style="color: #f59e0b; font-size: 1.25rem;">$0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ad Placement -->
+        <div class="ad-container">
+            <div class="ad-placeholder ad-rectangle">
+                Advertisement - Rectangle (300x250)
+            </div>
+        </div>
+
+        <!-- Explanation Section -->
+        <div class="content-wrapper section-spacing-sm">
+            <h2>How to Use This Calculator</h2>
+            
+            <p>This calculator helps you plan for any savings goal - whether it's a vacation, down payment, new car, or home renovation. You can calculate in two ways:</p>
+
+            <ol>
+                <li><strong>How long will it take?</strong> Enter your goal amount and monthly savings to see when you'll reach it.</li>
+                <li><strong>How much should I save?</strong> Enter your goal amount and target date to see the required monthly savings.</li>
+            </ol>
+
+            <h3>Common Savings Goals</h3>
+            
+            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+                <h4 style="color: #1f2937; margin-top: 0;">Short-term Goals (1-2 years)</h4>
+                <ul style="margin-bottom: 0;">
+                    <li>Vacation: $2,000 - $5,000</li>
+                    <li>Electronics or appliances: $500 - $2,000</li>
+                    <li>Holiday shopping: $500 - $1,500</li>
+                    <li>Minor home improvements: $1,000 - $5,000</li>
+                </ul>
+            </div>
+
+            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+                <h4 style="color: #1f2937; margin-top: 0;">Medium-term Goals (2-5 years)</h4>
+                <ul style="margin-bottom: 0;">
+                    <li>Car down payment: $3,000 - $8,000</li>
+                    <li>Wedding: $5,000 - $30,000+</li>
+                    <li>Major home renovation: $10,000 - $50,000</li>
+                    <li>Career change/education: $5,000 - $20,000</li>
+                </ul>
+            </div>
+
+            <div style="background: #f8fafc; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+                <h4 style="color: #1f2937; margin-top: 0;">Long-term Goals (5+ years)</h4>
+                <ul style="margin-bottom: 0;">
+                    <li>Home down payment: $20,000 - $100,000+</li>
+                    <li>Starting a business: $10,000 - $50,000+</li>
+                    <li>Child's education: $20,000 - $100,000+</li>
+                </ul>
+            </div>
+
+            <h3>Example: Saving for a Vacation</h3>
+            
+            <p><strong>Goal:</strong> $3,000 vacation in 12 months</p>
+            <p><strong>Current savings:</strong> $500</p>
+            <p><strong>Amount needed:</strong> $2,500</p>
+            <p><strong>Monthly savings required:</strong> $2,500 ÷ 12 = $208.33/month</p>
+
+            <p>If you can only save $150/month, it will take about 17 months to reach your goal instead.</p>
+
+            <h3>Tips for Reaching Your Savings Goals</h3>
+            
+            <ul>
+                <li><strong>Automate it:</strong> Set up automatic transfers to a separate savings account on payday</li>
+                <li><strong>Name your account:</strong> Many banks let you nickname accounts - "Hawaii Vacation Fund" is more motivating than "Savings 2"</li>
+                <li><strong>Track progress:</strong> Check your balance monthly and celebrate milestones</li>
+                <li><strong>Adjust as needed:</strong> If you get a bonus or tax refund, add it to accelerate your goal</li>
+                <li><strong>Separate accounts:</strong> Keep goal savings separate from emergency fund and daily spending</li>
+            </ul>
+
+            <div style="background: #fffbeb; border-left: 4px solid #f59e0b; padding: 1.5rem; margin: 2rem 0; border-radius: 4px;">
+                <p style="margin: 0;"><strong>Pro Tip:</strong> Start small. Even if you can only save $25/month toward a goal, that's $300 after a year. Small consistent contributions add up faster than you think!</p>
+            </div>
+        </div>
+
+        <!-- Related Tools -->
+        <div class="section-spacing">
+            <h2 class="text-center">Related Calculators</h2>
+            <div class="article-grid" style="max-width: 900px; margin: 2rem auto;">
+                <a href="budget.html" class="article-card">
+                    <h3>Budget Calculator</h3>
+                    <p>Create a budget to see how much you can allocate toward your savings goals.</p>
+                </a>
+                
+                <a href="emergency-fund.html" class="article-card">
+                    <h3>Emergency Fund Calculator</h3>
+                    <p>Make sure you have an emergency fund before saving for other goals.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="#">Finance Basics</a></li>
+                        <li><a href="#">Budgeting</a></li>
+                        <li><a href="#">Saving Money</a></li>
+                        <li><a href="#">Banking</a></li>
+                        <li><a href="#">Credit & Debt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Calculators</h4>
+                    <ul>
+                        <li><a href="budget.html">Budget Calculator</a></li>
+                        <li><a href="emergency-fund.html">Emergency Fund</a></li>
+                        <li><a href="savings-goal.html">Savings Goal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms of Service</a></li>
+                        <li><a href="../disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 PennyExplained.com. All rights reserved.</p>
+                <p style="margin-top: 0.5rem;">Personal finance education for beginners. Not financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
