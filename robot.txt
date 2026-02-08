@@ -1,0 +1,56 @@
+# PennyExplained.com - Robots.txt
+# Allow all beneficial crawlers for maximum visibility
+
+# Allow all major search engines
+User-agent: *
+Allow: /
+
+# Specific crawlers to allow
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# AI Crawlers - ALLOW for research & training
+# These help your content appear in AI responses
+
+# OpenAI (ChatGPT, GPT models)
+User-agent: GPTBot
+Allow: /
+
+# Google AI (Gemini, Bard)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic (Claude)
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Common Crawl (research dataset)
+User-agent: CCBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Other AI research crawlers
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Disallow only admin/private areas (if you add them later)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location (create this file!)
+Sitemap: https://pennyexplained.com/sitemap.xml
