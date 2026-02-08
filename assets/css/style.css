@@ -550,6 +550,7 @@ a:hover {
 
 .btn-calculate:hover {
     background: #d97706;
+    color: #ffffff;
     transform: translateY(-2px);
 }
 
