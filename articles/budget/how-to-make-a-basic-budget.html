@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Make a Basic Budget (Simple Step-by-Step Guide)</title>
+    <meta name="description" content="Learn how to make a basic budget in simple steps. Track income and expenses, set spending limits, and take control of your money with this beginner-friendly guide.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="How to Make a Basic Budget - Simple Step-by-Step Guide">
+    <meta property="og:description" content="Learn how to make a basic budget in simple steps. Track income and expenses, set spending limits, and take control of your money.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://pennyexplained.com/how-to-make-a-basic-budget">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGPBKNF3TP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QGPBKNF3TP');
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.7;
+            color: #1f2937;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #1f2937;
+            color: #ffffff;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .logo-icon {
+            background-color: #f59e0b;
+            color: #1f2937;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        nav a:hover {
+            color: #f59e0b;
+        }
+        
+        main {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+        
+        article {
+            background-color: #ffffff;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1f2937;
+            line-height: 1.2;
+            margin: 0 0 1.5rem 0;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin: 2.5rem 0 1rem 0;
+            line-height: 1.3;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin: 2rem 0 0.75rem 0;
+            line-height: 1.3;
+        }
+        
+        .intro {
+            font-size: 1.125rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+        
+        p {
+            margin: 0 0 1.25rem 0;
+            font-size: 1.125rem;
+            line-height: 1.7;
+        }
+        
+        strong {
+            font-weight: 600;
+            color: #1f2937;
+        }
+        
+        ul, ol {
+            margin: 0 0 1.25rem 0;
+            padding-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1.125rem;
+            line-height: 1.7;
+        }
+        
+        .example {
+            background-color: #f8fafc;
+            border-left: 4px solid #f59e0b;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .example-label {
+            font-weight: 600;
+            color: #f59e0b;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+        
+        .example p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .key-takeaways {
+            background-color: #f0fdf4;
+            border: 2px solid #10b981;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+        }
+        
+        .key-takeaways h2 {
+            margin-top: 0;
+            color: #059669;
+            font-size: 1.75rem;
+        }
+        
+        .key-takeaways ul {
+            margin-bottom: 0;
+        }
+        
+        .key-takeaways li {
+            margin-bottom: 0.75rem;
+        }
+        
+        .toc {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .toc h2 {
+            font-size: 1.25rem;
+            margin: 0 0 1rem 0;
+        }
+        
+        .toc ul {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+        
+        .toc li {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+        
+        .toc a {
+            color: #1f2937;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .toc a:hover {
+            color: #f59e0b;
+        }
+        
+        a {
+            color: #f59e0b;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            color: #d97706;
+        }
+        
+        footer {
+            background-color: #1f2937;
+            color: #ffffff;
+            padding: 3rem 0 1.5rem;
+            margin-top: 4rem;
+        }
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            color: #f59e0b;
+            font-size: 1rem;
+            margin: 0 0 1rem 0;
+            font-weight: 600;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .footer-section li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-section a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+        
+        .footer-section a:hover {
+            color: #f59e0b;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #9ca3af;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            h3 {
+                font-size: 1.25rem;
+            }
+            
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+                text-align: center;
+            }
+            
+            main {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">¢</span>
+                <span>PennyExplained</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/learn">Learn</a></li>
+                    <li><a href="/calculators">Calculators</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h1>How to Make a Basic Budget</h1>
+            
+            <p class="intro">Making a budget is simpler than you think. A budget is just a plan for your money that shows what comes in and what goes out. This guide walks you through creating your first budget step by step.</p>
+
+            <div class="toc">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#what-is-budget">What a Budget Actually Is</a></li>
+                    <li><a href="#why-budget">Why You Need a Budget</a></li>
+                    <li><a href="#step-1">Step 1: Calculate Your Monthly Income</a></li>
+                    <li><a href="#step-2">Step 2: List Your Fixed Expenses</a></li>
+                    <li><a href="#step-3">Step 3: Track Your Variable Expenses</a></li>
+                    <li><a href="#step-4">Step 4: Add Up Everything</a></li>
+                    <li><a href="#step-5">Step 5: Make Adjustments</a></li>
+                    <li><a href="#step-6">Step 6: Follow Your Budget</a></li>
+                    <li><a href="#tips">Tips for Budget Success</a></li>
+                    <li><a href="#takeaways">Key Takeaways</a></li>
+                </ul>
+            </div>
+
+            <h2 id="what-is-budget">What a Budget Actually Is</h2>
+            
+            <p>A <strong>budget</strong> is a plan that shows how much money you have coming in and how you plan to spend it. Think of it like a roadmap for your money. It helps you see where every dollar goes each month.</p>
+
+            <p>You don't need fancy software or complicated spreadsheets to make a budget. A simple piece of paper or a basic computer document works perfectly fine.</p>
+
+            <h2 id="why-budget">Why You Need a Budget</h2>
+            
+            <p>A budget helps you understand your money. Without one, you might wonder where all your money goes each month. With a budget, you know exactly where it goes.</p>
+
+            <p>Budgets also help you avoid spending more than you earn. This is one of the most common money problems people face. A budget makes it clear if you're living within your means or spending too much.</p>
+
+            <h2 id="step-1">Step 1: Calculate Your Monthly Income</h2>
+            
+            <p>Start by figuring out how much money you receive each month. This is your <strong>income</strong>. Use your take-home pay, which is the amount you actually receive after taxes and other deductions are taken out.</p>
+
+            <p>If you get paid every two weeks, you usually receive two paychecks per month. Sometimes you'll get three paychecks in a month, but budget for two to be safe.</p>
+
+            <div class="example">
+                <span class="example-label">Example:</span>
+                <p>Maria gets paid $1,500 every two weeks after taxes. Her regular monthly income is $3,000 (two paychecks). She doesn't count the occasional third paycheck in her budget because it only happens twice a year.</p>
+            </div>
+
+            <p>If you have income from other sources like a side job, add that too. Just be sure to use the amount you actually receive, not the amount before taxes.</p>
+
+            <h2 id="step-2">Step 2: List Your Fixed Expenses</h2>
+            
+            <p><strong>Fixed expenses</strong> are costs that stay the same each month. These are usually your biggest expenses and the easiest to track because the amounts don't change.</p>
+
+            <p>Common fixed expenses include:</p>
+            <ul>
+                <li>Rent or mortgage payment</li>
+                <li>Car payment</li>
+                <li>Insurance (car, health, renters)</li>
+                <li>Phone bill</li>
+                <li>Internet service</li>
+                <li>Streaming subscriptions</li>
+                <li>Gym membership</li>
+            </ul>
+
+            <div class="example">
+                <span class="example-label">Example:</span>
+                <p>Maria's fixed expenses each month:</p>
+                <ul>
+                    <li>Rent: $1,000</li>
+                    <li>Car payment: $250</li>
+                    <li>Car insurance: $120</li>
+                    <li>Phone: $50</li>
+                    <li>Internet: $60</li>
+                    <li>Streaming services: $30</li>
+                </ul>
+                <p>Total fixed expenses: $1,510</p>
+            </div>
+
+            <h2 id="step-3">Step 3: Track Your Variable Expenses</h2>
+            
+            <p><strong>Variable expenses</strong> change from month to month. These include things like groceries, gas, and entertainment. They're harder to track because the amounts aren't always the same.</p>
+
+            <p>For your first budget, look at your bank statements from the past month or two. See what you actually spent in these categories. This gives you a realistic starting point.</p>
+
+            <p>Common variable expenses include:</p>
+            <ul>
+                <li>Groceries</li>
+                <li>Gas for your car</li>
+                <li>Restaurants and takeout</li>
+                <li>Entertainment</li>
+                <li>Clothing</li>
+                <li>Personal care items</li>
+                <li>Household supplies</li>
+            </ul>
+
+            <div class="example">
+                <span class="example-label">Example:</span>
+                <p>Maria tracks her variable expenses from last month:</p>
+                <ul>
+                    <li>Groceries: $400</li>
+                    <li>Gas: $150</li>
+                    <li>Restaurants: $200</li>
+                    <li>Entertainment: $100</li>
+                    <li>Clothing: $80</li>
+                    <li>Personal care: $50</li>
+                </ul>
+                <p>Total variable expenses: $980</p>
+            </div>
+
+            <h2 id="step-4">Step 4: Add Up Everything</h2>
+            
+            <p>Now add up your total expenses. This includes both your fixed expenses and your variable expenses. Then compare this total to your monthly income.</p>
+
+            <p>The basic budget equation is simple:</p>
+            <p><strong>Income - Expenses = What's Left Over</strong></p>
+
+            <div class="example">
+                <span class="example-label">Example:</span>
+                <p>Maria's budget calculation:</p>
+                <ul>
+                    <li>Monthly income: $3,000</li>
+                    <li>Fixed expenses: $1,510</li>
+                    <li>Variable expenses: $980</li>
+                    <li>Total expenses: $2,490</li>
+                </ul>
+                <p>$3,000 - $2,490 = $510 left over</p>
+                <p>Maria has $510 each month that she can save or use for other goals.</p>
+            </div>
+
+            <h2 id="step-5">Step 5: Make Adjustments</h2>
+            
+            <p>After you see your budget on paper, you might need to make changes. There are three possible situations:</p>
+
+            <p><strong>Situation 1: You have money left over</strong><br>
+            This is good. You can save this money, pay off debt faster, or set it aside for future goals.</p>
+
+            <p><strong>Situation 2: You break even</strong><br>
+            Your income equals your expenses exactly. This works, but you're not saving anything. Consider finding small areas to cut so you can start saving.</p>
+
+            <p><strong>Situation 3: You're spending more than you earn</strong><br>
+            This is a problem. You need to reduce your expenses or find ways to increase your income. Look at your variable expenses first—these are usually easier to adjust.</p>
+
+            <div class="example">
+                <span class="example-label">Example:</span>
+                <p>Tom makes $2,800 per month but his expenses total $3,100. He's overspending by $300 each month. He looks at his variable expenses and finds:</p>
+                <ul>
+                    <li>Restaurants: $350 (he can reduce to $150 by cooking more)</li>
+                    <li>Entertainment: $200 (he can reduce to $100)</li>
+                </ul>
+                <p>By cutting $200 from restaurants and $100 from entertainment, he saves $300 and now breaks even.</p>
+            </div>
+
+            <h2 id="step-6">Step 6: Follow Your Budget</h2>
+            
+            <p>Once you create your budget, you need to follow it. This means tracking your spending throughout the month to make sure you're staying within your planned amounts.</p>
+
+            <p>You can track your spending in different ways:</p>
+            <ul>
+                <li>Write down every purchase in a notebook</li>
+                <li>Check your bank account every few days</li>
+                <li>Use a budgeting app on your phone</li>
+                <li>Save receipts and add them up weekly</li>
+            </ul>
+
+            <p>At the end of each month, compare what you actually spent to what you planned to spend. This helps you adjust your budget for the next month.</p>
+
+            <div class="example">
+                <span class="example-label">Example:</span>
+                <p>Sarah budgeted $400 for groceries but spent $480. The next month, she adjusts her grocery budget to $450, which is more realistic. She also finds she can reduce her entertainment budget from $150 to $100 to make room for the grocery increase.</p>
+            </div>
+
+            <h2 id="tips">Tips for Budget Success</h2>
+            
+            <p><strong>Start simple.</strong> Your first budget doesn't need to be perfect. You'll adjust it as you learn more about your spending.</p>
+
+            <p><strong>Be realistic.</strong> Don't set budgets that are impossible to follow. If you normally spend $400 on groceries, don't budget $200. You'll just get frustrated.</p>
+
+            <p><strong>Include savings.</strong> Treat savings like a fixed expense. Pay yourself first by setting aside money for savings before you spend on other things.</p>
+
+            <p><strong>Review regularly.</strong> Check your budget every month. Your expenses change, so your budget should change too.</p>
+
+            <p><strong>Don't give up.</strong> Most people don't follow their budget perfectly the first month. That's normal. Keep trying and adjusting.</p>
+
+            <div class="example">
+                <span class="example-label">Example:</span>
+                <p>Mike created his first budget and didn't follow it perfectly. He went over budget on groceries by $50 and forgot to budget for his annual car registration of $120. Instead of giving up, he adjusted his next month's budget to include these items and kept going.</p>
+            </div>
+
+            <h2 id="common-mistakes">Common Budgeting Mistakes to Avoid</h2>
+            
+            <p><strong>Forgetting irregular expenses.</strong> Some expenses don't happen every month. Car insurance might be paid every six months. Gifts might be seasonal. Include these by estimating the yearly cost and dividing by 12.</p>
+
+            <p><strong>Being too strict.</strong> If your budget has no room for fun or flexibility, you won't stick to it. Include a small amount for entertainment or personal spending.</p>
+
+            <p><strong>Not tracking actual spending.</strong> Creating a budget is just the first step. You also need to track what you actually spend to make sure you're following the budget.</p>
+
+            <p><strong>Setting it and forgetting it.</strong> Your budget needs regular updates. When your income changes or you get a new expense, update your budget.</p>
+
+            <div class="key-takeaways" id="takeaways">
+                <h2>Key Takeaways</h2>
+                <ul>
+                    <li><strong>A budget is a simple plan</strong> that shows your income and expenses on paper so you can see where your money goes.</li>
+                    <li><strong>Start with your income.</strong> Use your take-home pay (after taxes) as your starting point.</li>
+                    <li><strong>List all expenses.</strong> Include both fixed expenses (same each month) and variable expenses (change each month).</li>
+                    <li><strong>Your goal is simple math:</strong> Make sure your expenses don't exceed your income.</li>
+                    <li><strong>Adjust as needed.</strong> If you're overspending, reduce variable expenses or find ways to earn more.</li>
+                    <li><strong>Track your spending.</strong> Creating the budget is step one. Following it by tracking actual spending is step two.</li>
+                    <li><strong>Be patient with yourself.</strong> Your first budget won't be perfect, and that's okay. You'll improve with practice.</li>
+                </ul>
+            </div>
+
+            <h2>Conclusion</h2>
+            
+            <p>Making a basic budget is one of the most important money skills you can learn. It doesn't have to be complicated or perfect. Start simple, be honest about your spending, and adjust as you go.</p>
+
+            <p>The goal isn't to restrict yourself. The goal is to understand your money and make intentional choices about how you use it. Even a basic budget gives you more control over your financial life than having no budget at all.</p>
+
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Learn</h3>
+                    <ul>
+                        <li><a href="/finance-basics">Finance Basics</a></li>
+                        <li><a href="/budgeting">Budgeting</a></li>
+                        <li><a href="/saving">Saving Money</a></li>
+                        <li><a href="/banking">Banking</a></li>
+                        <li><a href="/credit-debt">Credit & Debt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Calculators</h3>
+                    <ul>
+                        <li><a href="/calculators/budget">Budget Calculator</a></li>
+                        <li><a href="/calculators/emergency-fund">Emergency Fund Calculator</a></li>
+                        <li><a href="/calculators/savings-goal">Savings Goal Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms of Service</a></li>
+                        <li><a href="/disclaimer">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PennyExplained. All rights reserved. | Personal Finance Made Simple</p>
+                <p style="margin-top: 0.5rem; font-size: 0.75rem;">This website provides educational information only and does not provide financial advice.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
