@@ -293,6 +293,35 @@ a:hover {
     color: #ffffff;
 }
 
+/* Add this CSS to fix hero section link visibility */
+.hero a {
+    color: #f59e0b; /* Amber color - stands out on dark background */
+}
+
+.hero a:hover {
+    color: #fbbf24; /* Lighter amber on hover */
+    text-decoration: underline;
+}
+
+/* Specifically for the CTA button */
+.hero .cta-button {
+    color: #1e293b; /* Dark text */
+    background-color: #f59e0b; /* Amber background */
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #fbbf24; /* Lighter amber on hover */
+    color: #0f172a; /* Slightly darker text on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
 /* ============================================
    FEATURED CALCULATOR (Homepage)
    ============================================ */
