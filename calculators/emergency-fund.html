@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free emergency fund calculator. Calculate how much you need to save and how long it will take to reach your emergency fund goal.">
+    <meta name="keywords" content="emergency fund calculator, savings calculator, financial safety net, emergency savings">
+    
+    <title>Emergency Fund Calculator - PennyExplained</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGPBKNF3TP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QGPBKNF3TP');
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo.svg" alt="PennyExplained Logo">
+            </a>
+            
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#learn">Learn</a></li>
+                    <li><a href="../index.html#calculators">Calculators</a></li>
+                    <li><a href="../index.html#articles">Articles</a></li>
+                    <li><a href="../about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Calculator -->
+    <div class="container">
+        <div class="calculator-container">
+            <h1>Emergency Fund Calculator</h1>
+            <p class="calculator-intro">Calculate how much you need in your emergency fund and how long it will take to reach your goal.</p>
+            
+            <div class="form-group">
+                <label for="monthly-expenses">Monthly Essential Expenses</label>
+                <input type="number" id="monthly-expenses" placeholder="e.g., 2500" min="0" step="0.01">
+                <small style="color: #64748b; display: block; margin-top: 0.5rem;">
+                    Include rent, groceries, utilities, insurance, minimum debt payments
+                </small>
+            </div>
+            
+            <div class="form-group">
+                <label for="target-months">Target Months of Expenses</label>
+                <select id="target-months">
+                    <option value="3">3 months (minimum)</option>
+                    <option value="6" selected>6 months (recommended)</option>
+                    <option value="9">9 months</option>
+                    <option value="12">12 months</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="current-savings">Current Emergency Savings</label>
+                <input type="number" id="current-savings" placeholder="e.g., 1000" min="0" step="0.01" value="0">
+            </div>
+            
+            <div class="form-group">
+                <label for="monthly-savings">How Much Can You Save Monthly?</label>
+                <input type="number" id="monthly-savings" placeholder="e.g., 300" min="0" step="0.01">
+            </div>
+            
+            <button class="btn-calculate" onclick="calculateEmergencyFund()">Calculate Emergency Fund</button>
+            
+            <div id="emergency-result" class="result-box hidden">
+                <p class="result-label">Your Emergency Fund Plan</p>
+                
+                <div class="result-breakdown">
+                    <div class="breakdown-item">
+                        <span>🎯 Emergency Fund Goal</span>
+                        <span id="emergency-fund-goal" style="color: #10b981; font-size: 1.5rem;">$0.00</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>💵 Amount Still Needed</span>
+                        <span id="amount-needed" style="color: #f59e0b; font-size: 1.25rem;">$0.00</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>📅 Time to Reach Goal</span>
+                        <span id="months-to-goal" style="color: #3b82f6; font-size: 1.25rem;">0 months</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ad Placement -->
+        <div class="ad-container">
+            <div class="ad-placeholder ad-rectangle">
+                Advertisement - Rectangle (300x250)
+            </div>
+        </div>
+
+        <!-- Explanation Section -->
+        <div class="content-wrapper section-spacing-sm">
+            <h2>What is an Emergency Fund?</h2>
+            
+            <p>An emergency fund is money set aside specifically for unexpected expenses or financial emergencies. Think of it as a safety net that protects you from going into debt when life throws you a curveball.</p>
+
+            <h3>How Much Should You Save?</h3>
+            
+            <p>Financial experts typically recommend saving 3-6 months of essential expenses. Here's when you might need different amounts:</p>
+
+            <ul>
+                <li><strong>3 months:</strong> If you have stable employment, dual income household, or good disability insurance</li>
+                <li><strong>6 months:</strong> Standard recommendation for most people (safest bet)</li>
+                <li><strong>9-12 months:</strong> If you're self-employed, single income household, or work in an unstable industry</li>
+            </ul>
+
+            <h3>What Counts as an Emergency?</h3>
+            
+            <p>Your emergency fund should only be used for true emergencies:</p>
+
+            <ul>
+                <li>Job loss or reduced income</li>
+                <li>Medical emergencies or unexpected health expenses</li>
+                <li>Urgent car repairs (you need your car for work)</li>
+                <li>Essential home repairs (broken furnace, roof leak)</li>
+                <li>Emergency travel (family emergency)</li>
+            </ul>
+
+            <p><strong>Not emergencies:</strong> Holidays, shopping, planned vacations, new phone</p>
+
+            <h3>Where to Keep Your Emergency Fund</h3>
+            
+            <p>Your emergency fund should be:</p>
+
+            <ul>
+                <li><strong>Easy to access:</strong> Keep it in a savings account, not investments</li>
+                <li><strong>Separate:</strong> Keep it in a different account from your regular checking</li>
+                <li><strong>Safe:</strong> FDIC-insured savings account or money market account</li>
+                <li><strong>Earning interest:</strong> High-yield savings account when possible</li>
+            </ul>
+
+            <div style="background: #f0fdf4; border-left: 4px solid #10b981; padding: 1.5rem; margin: 2rem 0; border-radius: 4px;">
+                <h4 style="margin-top: 0;">Building Your Emergency Fund</h4>
+                <p style="margin-bottom: 0;">Start small if you need to. Even $500 can cover many small emergencies. Treat your emergency fund savings like a bill - set up automatic transfers on payday so you save before you spend.</p>
+            </div>
+        </div>
+
+        <!-- Related Tools -->
+        <div class="section-spacing">
+            <h2 class="text-center">Related Calculators</h2>
+            <div class="article-grid" style="max-width: 900px; margin: 2rem auto;">
+                <a href="budget.html" class="article-card">
+                    <h3>Budget Calculator</h3>
+                    <p>Create a monthly budget and find out how much you can allocate to your emergency fund.</p>
+                </a>
+                
+                <a href="savings-goal.html" class="article-card">
+                    <h3>Savings Goal Calculator</h3>
+                    <p>Plan for other savings goals beyond your emergency fund.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="#">Finance Basics</a></li>
+                        <li><a href="#">Budgeting</a></li>
+                        <li><a href="#">Saving Money</a></li>
+                        <li><a href="#">Banking</a></li>
+                        <li><a href="#">Credit & Debt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Calculators</h4>
+                    <ul>
+                        <li><a href="budget.html">Budget Calculator</a></li>
+                        <li><a href="emergency-fund.html">Emergency Fund</a></li>
+                        <li><a href="savings-goal.html">Savings Goal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms of Service</a></li>
+                        <li><a href="../disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 PennyExplained.com. All rights reserved.</p>
+                <p style="margin-top: 0.5rem;">Personal finance education for beginners. Not financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
