@@ -277,8 +277,7 @@ a:hover {
 
 .cta-button:hover {
     background: #d97706;
-    border-color: #d97706;
-    text-decoration: none;
+    font-color: #ffffff
     transform: translateY(-2px);
 }
 
