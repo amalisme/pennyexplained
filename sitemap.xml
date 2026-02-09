@@ -3,7 +3,7 @@
     
     <!-- Homepage -->
     <url>
-        <loc>https://pennyexplained.pages.dev/</loc>
+        <loc>https://pennyexplained.com/</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -11,14 +11,14 @@
     
     <!-- Main Pages -->
     <url>
-        <loc>https://pennyexplained.pages.dev/about.html</loc>
+        <loc>https://pennyexplained.com/about.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/contact.html</loc>
+        <loc>https://pennyexplained.com/contact.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -26,21 +26,21 @@
     
     <!-- Legal Pages -->
     <url>
-        <loc>https://pennyexplained.pages.dev/privacy-policy.html</loc>
+        <loc>https://pennyexplained.com/privacy-policy.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/terms.html</loc>
+        <loc>https://pennyexplained.com/terms.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/disclaimer.html</loc>
+        <loc>https://pennyexplained.com/disclaimer.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
@@ -48,21 +48,21 @@
     
     <!-- Calculators -->
     <url>
-        <loc>https://pennyexplained.pages.dev/calculators/budget.html</loc>
+        <loc>https://pennyexplained.com/calculators/budget.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/calculators/emergency-fund.html</loc>
+        <loc>https://pennyexplained.com/calculators/emergency-fund.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/calculators/savings-goal.html</loc>
+        <loc>https://pennyexplained.com/calculators/savings-goal.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -70,42 +70,42 @@
     
     <!-- Category Index Pages -->
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/index.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/index.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/index.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/index.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/index.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/index.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/index.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/index.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/index.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/index.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/index.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/index.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -113,56 +113,56 @@
     
     <!-- Finance Basics Articles -->
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/what-is-personal-finance.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/what-is-personal-finance.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/personal-finance-basics-for-beginners.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/personal-finance-basics-for-beginners.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/what-is-income.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/what-is-income.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/what-are-expenses.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/what-are-expenses.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/fixed-vs-variable-expenses.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/fixed-vs-variable-expenses.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/what-is-net-income.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/what-is-net-income.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/what-is-cash-flow.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/what-is-cash-flow.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/finance-basics/why-money-management-matters.html</loc>
+        <loc>https://pennyexplained.com/articles/finance-basics/why-money-management-matters.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -170,56 +170,56 @@
     
     <!-- Budgeting Articles -->
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/how-budgeting-works.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/how-budgeting-works.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/how-to-make-a-basic-budget.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/how-to-make-a-basic-budget.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/monthly-budget-example.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/monthly-budget-example.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/budget-categories-explained.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/budget-categories-explained.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/50-30-20-budget-rule.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/50-30-20-budget-rule.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/zero-based-budgeting.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/zero-based-budgeting.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/how-to-track-expenses-manually.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/how-to-track-expenses-manually.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/budgeting/budgeting-mistakes-beginners-make.html</loc>
+        <loc>https://pennyexplained.com/articles/budgeting/budgeting-mistakes-beginners-make.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -227,56 +227,56 @@
     
     <!-- Saving Articles -->
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/what-is-saving-money.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/what-is-saving-money.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/why-saving-money-is-important.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/why-saving-money-is-important.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/what-is-emergency-fund.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/what-is-emergency-fund.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/how-emergency-funds-work.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/how-emergency-funds-work.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/how-much-people-typically-save.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/how-much-people-typically-save.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/saving-vs-spending-explained.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/saving-vs-spending-explained.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/short-term-vs-long-term-savings.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/short-term-vs-long-term-savings.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/saving/common-saving-mistakes.html</loc>
+        <loc>https://pennyexplained.com/articles/saving/common-saving-mistakes.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -284,56 +284,56 @@
     
     <!-- Banking Articles -->
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/what-is-bank-account.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/what-is-bank-account.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/checking-vs-savings-account.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/checking-vs-savings-account.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/how-bank-accounts-work.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/how-bank-accounts-work.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/what-is-bank-fee.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/what-is-bank-fee.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/common-bank-fees-explained.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/common-bank-fees-explained.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/what-is-overdraft.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/what-is-overdraft.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/online-banks-vs-traditional-banks.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/online-banks-vs-traditional-banks.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/banking/how-fdic-insurance-works.html</loc>
+        <loc>https://pennyexplained.com/articles/banking/how-fdic-insurance-works.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -341,63 +341,63 @@
     
     <!-- Credit & Debt Articles -->
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/what-is-credit.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/what-is-credit.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/what-is-credit-score.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/what-is-credit-score.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/how-credit-scores-work.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/how-credit-scores-work.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/what-affects-credit-score.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/what-affects-credit-score.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/what-is-credit-utilization.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/what-is-credit-utilization.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/what-is-interest.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/what-is-interest.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/what-is-debt.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/what-is-debt.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/good-debt-vs-bad-debt.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/good-debt-vs-bad-debt.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/credit-debt/credit-score-myths.html</loc>
+        <loc>https://pennyexplained.com/articles/credit-debt/credit-score-myths.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -405,56 +405,56 @@
     
     <!-- Money Terms Articles -->
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-asset.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-asset.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-liability.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-liability.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-net-worth.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-net-worth.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-apr.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-apr.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-apr-vs-apy.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-apr-vs-apy.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-compound-interest.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-compound-interest.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-budget.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-budget.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://pennyexplained.pages.dev/articles/money-terms/what-is-inflation.html</loc>
+        <loc>https://pennyexplained.com/articles/money-terms/what-is-inflation.html</loc>
         <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
