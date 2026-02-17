@@ -611,6 +611,7 @@ a:hover {
 }
 
 .ad-placeholder {
+    display: none; /* temporary */
     background: #f8fafc;
     border: 2px dashed #e2e8f0;
     border-radius: 4px;
